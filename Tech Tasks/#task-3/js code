@@ -1,0 +1,29 @@
+function validateForm() {
+    var fullName = document.getElementById("fullName").value;
+    var email = document.getElementById("email").value;
+    var destination = document.getElementById("destination").value;
+    var address = document.getElementById("address").value;
+    var no = document.getElementById("no").value;
+    var departureDate = document.getElementById("departureDate").value;
+    var returnDate = document.getElementById("returnDate").value;
+
+   
+    if (fullName === "" || email === "" || destination === "" || departureDate === "" || returnDate === ""|| address === ""||no === "") {
+        alert("All fields are required.");
+        return false;
+    }
+
+    
+    if (new Date(departureDate) >= new Date(returnDate)) {
+        alert("Return date must be after departure date.");
+        return false;
+    }
+
+    if(new Number(no<=0)){
+        alert("select correct no.of passengers");
+        return false;
+    }
+
+
+    return true; 
+}
