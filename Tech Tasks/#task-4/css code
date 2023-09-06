@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 90px;
+    color: #db0c0c;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 3px 0 rgba(206, 203, 193, 0.532);
+}
+
+.w {
+    background-color: #e7783c;
+}
+
+.a {
+    background-color: #66db34;
+}
+
+.s {
+    background-color: #e017b1;
+}
+
+.d {
+    background-color: #2ebacc;
+}
+
+.j {
+    background-color: #5e13c1;
+}
+
+.k {
+    background-color: #f3f312;
+}
+
+.l {
+    background-color: #86e8d5;
+}
+
+.set {
+    margin: 10%;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #13a4d4;
+    opacity: 0.5;
+}
+
+.red {
+    color: rgb(248, 56, 56);
+}
+
+.drum {
+    outline: none;
+    border: 8px solid #733c9b;
+    font-size: 5rem;
+    font-family: 'Brush Script MT', cursive;
+    line-height: 1;
+    font-weight: 100;
+    color: #db3d3d;
+    text-shadow: 3px 0 #fff48e;
+    border-radius: 25px;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    transition: transform 0.1s;
+}
